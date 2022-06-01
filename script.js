@@ -7,7 +7,8 @@ const rectArray = [];
 
 
 
-for (let i = 0; i < 750; i++) {
+
+for (let i = 0; i < 1000; i++) {
 
     const randomX = Math.random() * 600;
     const randomY = Math.random() * 480;
@@ -19,9 +20,9 @@ for (let i = 0; i < 750; i++) {
     const randomBlue = Math.random() * 255;
     const randomAlpha = Math.random();
 
-    const randomVX = randomBetween(-1, 1);
+    const randomVX = randomBetween(-3, 3);
 
-    const randomVY = randomBetween(-1, 1);
+    const randomVY = randomBetween(-3, 3);
 
     const colorRGBString = 'rgba(' + randomRed + ',' + randomGreen + ',' + randomBlue + ',' +randomAlpha +')'
     
