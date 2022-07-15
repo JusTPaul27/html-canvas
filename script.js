@@ -8,7 +8,7 @@ const rectArray = [];
 
 
 
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 350; i++) {
 
     const randomX = Math.random() * 600;
     const randomY = Math.random() * 480;
